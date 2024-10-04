@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/static_broadcaster
+static_broadcaster/__init__.py
+static_broadcaster/broadcast.py
+static_broadcaster.egg-info/PKG-INFO
+static_broadcaster.egg-info/SOURCES.txt
+static_broadcaster.egg-info/dependency_links.txt
+static_broadcaster.egg-info/entry_points.txt
+static_broadcaster.egg-info/requires.txt
+static_broadcaster.egg-info/top_level.txt
+static_broadcaster.egg-info/zip-safe

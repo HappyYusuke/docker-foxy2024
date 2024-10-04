@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dynamixel_sdk_custom_interfaces/msg/SetPosition.msg
+// generated code does not contain a copyright notice
+
+
+module dynamixel_sdk_custom_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " Messages")
+    struct SetPosition {
+      uint8 id;
+
+      @verbatim (language="comment", text=
+        " 0 ~ 4095")
+      int32 position;
+
+      @verbatim (language="comment", text=
+        " 0 ~ 32767")
+      int32 velocity;
+
+      @verbatim (language="comment", text=
+        " 0 ~ 32767")
+      int32 acceleration;
+    };
+  };
+};

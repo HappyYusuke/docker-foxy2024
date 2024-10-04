@@ -1,0 +1,24 @@
+[1.223s] Invoking command in '/home/root/colcon_ws/build/opencv_ros2': PYTHONPATH=/home/root/colcon_ws/build/opencv_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/root/colcon_ws/install/opencv_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/root/colcon_ws/build/opencv_ros2/build --no-deps symlink_data
+[1.469s] running develop
+[1.593s] running egg_info
+[1.593s] writing opencv_ros2.egg-info/PKG-INFO
+[1.593s] writing dependency_links to opencv_ros2.egg-info/dependency_links.txt
+[1.593s] writing entry points to opencv_ros2.egg-info/entry_points.txt
+[1.593s] writing requirements to opencv_ros2.egg-info/requires.txt
+[1.593s] writing top-level names to opencv_ros2.egg-info/top_level.txt
+[1.626s] reading manifest file 'opencv_ros2.egg-info/SOURCES.txt'
+[1.626s] writing manifest file 'opencv_ros2.egg-info/SOURCES.txt'
+[1.649s] running build_ext
+[1.649s] Creating /home/root/colcon_ws/install/opencv_ros2/lib/python3.8/site-packages/opencv-ros2.egg-link (link to .)
+[1.649s] Installing aruco_node_tf script to /home/root/colcon_ws/install/opencv_ros2/lib/opencv_ros2
+[1.650s] Installing canny_edge_detection script to /home/root/colcon_ws/install/opencv_ros2/lib/opencv_ros2
+[1.650s] Installing challenge5_1_say_hello script to /home/root/colcon_ws/install/opencv_ros2/lib/opencv_ros2
+[1.650s] Installing challenge5_2_cup_direction script to /home/root/colcon_ws/install/opencv_ros2/lib/opencv_ros2
+[1.650s] Installing face_detection script to /home/root/colcon_ws/install/opencv_ros2/lib/opencv_ros2
+[1.650s] Installing imgproc_opencv_ros script to /home/root/colcon_ws/install/opencv_ros2/lib/opencv_ros2
+[1.650s] Installing qrcode_detector script to /home/root/colcon_ws/install/opencv_ros2/lib/opencv_ros2
+[1.650s] Installing quiz5_1_smile_detection script to /home/root/colcon_ws/install/opencv_ros2/lib/opencv_ros2
+[1.651s] 
+[1.651s] Installed /home/root/colcon_ws/build/opencv_ros2
+[1.651s] running symlink_data
+[1.681s] Invoked command in '/home/root/colcon_ws/build/opencv_ros2' returned '0': PYTHONPATH=/home/root/colcon_ws/build/opencv_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/root/colcon_ws/install/opencv_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/root/colcon_ws/build/opencv_ros2/build --no-deps symlink_data

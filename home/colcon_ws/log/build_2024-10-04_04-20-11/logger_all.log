@@ -1,0 +1,653 @@
+[0.099s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.099s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2eb77696a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2eb77696a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2eb7769be0>)
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.168s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/root/colcon_ws'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024) by extension 'ros'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024) by extensions ['cmake', 'python']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024) by extension 'python'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024) by extensions ['python_setup_py']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024) by extension 'python_setup_py'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK) by extension 'ros'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK) by extensions ['cmake', 'python']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK) by extension 'python'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK) by extensions ['python_setup_py']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK) by extension 'python_setup_py'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk' with type 'ros.ament_cmake' and name 'dynamixel_sdk'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_custom_interfaces' with type 'ros.ament_cmake' and name 'dynamixel_sdk_custom_interfaces'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_examples) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_examples' with type 'ros.ament_cmake' and name 'dynamixel_sdk_examples'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/aruco_listener) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/aruco_listener) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/aruco_listener) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/aruco_listener) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/aruco_listener) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/aruco_listener) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/aruco_listener) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/aruco_listener) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/aruco_listener) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Professional_Experiment_2024/aruco_listener' with type 'ros.ament_python' and name 'aruco_listener'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/opencv_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/opencv_ros2) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/opencv_ros2) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/opencv_ros2) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/opencv_ros2) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/opencv_ros2) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/opencv_ros2) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/opencv_ros2) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/opencv_ros2) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Professional_Experiment_2024/opencv_ros2' with type 'ros.ament_python' and name 'opencv_ros2'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco) by extension 'ros'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco) by extension 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco) by extension 'python_setup_py'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco/ros2_aruco) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco/ros2_aruco) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco/ros2_aruco) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco/ros2_aruco) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco/ros2_aruco) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco/ros2_aruco) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco/ros2_aruco) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco/ros2_aruco) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco/ros2_aruco) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Professional_Experiment_2024/ros2_aruco/ros2_aruco' with type 'ros.ament_python' and name 'ros2_aruco'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco/ros2_aruco_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco/ros2_aruco_interfaces) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco/ros2_aruco_interfaces) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco/ros2_aruco_interfaces) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco/ros2_aruco_interfaces) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco/ros2_aruco_interfaces) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco/ros2_aruco_interfaces) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco/ros2_aruco_interfaces) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/ros2_aruco/ros2_aruco_interfaces) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Professional_Experiment_2024/ros2_aruco/ros2_aruco_interfaces' with type 'ros.ament_cmake' and name 'ros2_aruco_interfaces'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/static_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/static_broadcaster) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/static_broadcaster) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/static_broadcaster) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/static_broadcaster) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/static_broadcaster) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/static_broadcaster) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/static_broadcaster) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/Professional_Experiment_2024/static_broadcaster) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Professional_Experiment_2024/static_broadcaster' with type 'ros.ament_python' and name 'static_broadcaster'
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.193s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/root/colcon_ws/install/static_broadcaster' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.193s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/root/colcon_ws/install/ros2_aruco_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.193s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/root/colcon_ws/install/ros2_aruco' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.193s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/root/colcon_ws/install/opencv_ros2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.193s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/root/colcon_ws/install/dynamixel_sdk_examples' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.193s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.193s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/root/colcon_ws/install/dynamixel_sdk' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.193s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/root/colcon_ws/install/aruco_listener' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.193s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/root/colcon_ws/install/ros2_aruco_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.193s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/root/colcon_ws/install/dynamixel_sdk_examples' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.193s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.193s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/root/colcon_ws/install/dynamixel_sdk' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.193s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/root/colcon_ws/install
+[0.194s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 266 installed packages in /opt/ros/foxy
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'aruco_listener' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'aruco_listener' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'aruco_listener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'aruco_listener' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'aruco_listener' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'aruco_listener' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'aruco_listener' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'aruco_listener' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'aruco_listener' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_listener' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/root/colcon_ws/build/aruco_listener', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/root/colcon_ws/install/aruco_listener', 'merge_install': False, 'path': '/home/root/colcon_ws/src/Professional_Experiment_2024/aruco_listener', 'symlink_install': True, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/root/colcon_ws/build/dynamixel_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/root/colcon_ws/install/dynamixel_sdk', 'merge_install': False, 'path': '/home/root/colcon_ws/src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk', 'symlink_install': True, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/root/colcon_ws/build/dynamixel_sdk_custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces', 'merge_install': False, 'path': '/home/root/colcon_ws/src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_custom_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'opencv_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/root/colcon_ws/build/opencv_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/root/colcon_ws/install/opencv_ros2', 'merge_install': False, 'path': '/home/root/colcon_ws/src/Professional_Experiment_2024/opencv_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_aruco' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/root/colcon_ws/build/ros2_aruco', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/root/colcon_ws/install/ros2_aruco', 'merge_install': False, 'path': '/home/root/colcon_ws/src/Professional_Experiment_2024/ros2_aruco/ros2_aruco', 'symlink_install': True, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.230s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_aruco_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/root/colcon_ws/build/ros2_aruco_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/root/colcon_ws/install/ros2_aruco_interfaces', 'merge_install': False, 'path': '/home/root/colcon_ws/src/Professional_Experiment_2024/ros2_aruco/ros2_aruco_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'static_broadcaster' build argument 'cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'static_broadcaster' build argument 'cmake_target' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'static_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'static_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'static_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'static_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'static_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'static_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'static_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.230s] DEBUG:colcon.colcon_core.verb:Building package 'static_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/root/colcon_ws/build/static_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/root/colcon_ws/install/static_broadcaster', 'merge_install': False, 'path': '/home/root/colcon_ws/src/Professional_Experiment_2024/static_broadcaster', 'symlink_install': True, 'test_result_base': None}
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.230s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/root/colcon_ws/build/dynamixel_sdk_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/root/colcon_ws/install/dynamixel_sdk_examples', 'merge_install': False, 'path': '/home/root/colcon_ws/src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_examples', 'symlink_install': True, 'test_result_base': None}
+[0.230s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.231s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.231s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/root/colcon_ws/src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk' with build type 'ament_cmake'
+[0.231s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/root/colcon_ws/src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk'
+[0.233s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.233s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.233s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.236s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/root/colcon_ws/src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_custom_interfaces' with build type 'ament_cmake'
+[0.236s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/root/colcon_ws/src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_custom_interfaces'
+[0.236s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.236s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.240s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/root/colcon_ws/src/Professional_Experiment_2024/aruco_listener' with build type 'ament_python'
+[0.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_listener', 'ament_prefix_path')
+[0.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/aruco_listener/share/aruco_listener/hook/ament_prefix_path.ps1'
+[0.242s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/aruco_listener/share/aruco_listener/hook/ament_prefix_path.dsv'
+[0.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/aruco_listener/share/aruco_listener/hook/ament_prefix_path.sh'
+[0.243s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.243s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.246s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/root/colcon_ws/src/Professional_Experiment_2024/opencv_ros2' with build type 'ament_python'
+[0.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_ros2', 'ament_prefix_path')
+[0.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/opencv_ros2/share/opencv_ros2/hook/ament_prefix_path.ps1'
+[0.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/opencv_ros2/share/opencv_ros2/hook/ament_prefix_path.dsv'
+[0.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/opencv_ros2/share/opencv_ros2/hook/ament_prefix_path.sh'
+[0.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.249s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.253s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/root/colcon_ws/src/Professional_Experiment_2024/ros2_aruco/ros2_aruco' with build type 'ament_python'
+[0.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco', 'ament_prefix_path')
+[0.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/ros2_aruco/share/ros2_aruco/hook/ament_prefix_path.ps1'
+[0.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/ros2_aruco/share/ros2_aruco/hook/ament_prefix_path.dsv'
+[0.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/ros2_aruco/share/ros2_aruco/hook/ament_prefix_path.sh'
+[0.255s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.257s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/root/colcon_ws/src/Professional_Experiment_2024/ros2_aruco/ros2_aruco_interfaces' with build type 'ament_cmake'
+[0.258s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/root/colcon_ws/src/Professional_Experiment_2024/ros2_aruco/ros2_aruco_interfaces'
+[0.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.262s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/root/colcon_ws/src/Professional_Experiment_2024/static_broadcaster' with build type 'ament_python'
+[0.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('static_broadcaster', 'ament_prefix_path')
+[0.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/static_broadcaster/share/static_broadcaster/hook/ament_prefix_path.ps1'
+[0.263s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/static_broadcaster/share/static_broadcaster/hook/ament_prefix_path.dsv'
+[0.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/static_broadcaster/share/static_broadcaster/hook/ament_prefix_path.sh'
+[0.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/root/colcon_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy /usr/bin/cmake /home/root/colcon_ws/src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/root/colcon_ws/install/dynamixel_sdk
+[0.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/root/colcon_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy /usr/bin/cmake /home/root/colcon_ws/src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces
+[0.411s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/root/colcon_ws/src/Professional_Experiment_2024/aruco_listener'
+[0.411s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.411s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.542s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/root/colcon_ws/src/Professional_Experiment_2024/opencv_ros2'
+[0.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.542s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.676s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/root/colcon_ws/src/Professional_Experiment_2024/ros2_aruco/ros2_aruco'
+[0.676s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.676s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/root/colcon_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy /usr/bin/cmake /home/root/colcon_ws/src/Professional_Experiment_2024/ros2_aruco/ros2_aruco_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/root/colcon_ws/install/ros2_aruco_interfaces
+[0.819s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/root/colcon_ws/src/Professional_Experiment_2024/static_broadcaster'
+[0.819s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.819s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/root/colcon_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy /usr/bin/cmake /home/root/colcon_ws/src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/root/colcon_ws/install/dynamixel_sdk
+[1.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/root/colcon_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy /usr/bin/cmake --build /home/root/colcon_ws/build/dynamixel_sdk -- -j8 -l8
+[1.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/root/colcon_ws/build/static_broadcaster': PYTHONPATH=/home/root/colcon_ws/build/static_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/root/colcon_ws/install/static_broadcaster/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/root/colcon_ws/build/static_broadcaster/build --no-deps symlink_data
+[1.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/root/colcon_ws/build/ros2_aruco': PYTHONPATH=/home/root/colcon_ws/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/root/colcon_ws/install/ros2_aruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/root/colcon_ws/build/ros2_aruco/build --no-deps symlink_data
+[1.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/root/colcon_ws/build/aruco_listener': PYTHONPATH=/home/root/colcon_ws/build/aruco_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/root/colcon_ws/install/aruco_listener/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/root/colcon_ws/build/aruco_listener/build --no-deps symlink_data
+[1.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/root/colcon_ws/build/opencv_ros2': PYTHONPATH=/home/root/colcon_ws/build/opencv_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/root/colcon_ws/install/opencv_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/root/colcon_ws/build/opencv_ros2/build --no-deps symlink_data
+[2.106s] Level 1:colcon.colcon_core.shell:create_environment_hook('static_broadcaster', 'pythonpath_develop')
+[2.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/build/static_broadcaster/share/static_broadcaster/hook/pythonpath_develop.ps1'
+[2.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/build/static_broadcaster/share/static_broadcaster/hook/pythonpath_develop.dsv'
+[2.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/build/static_broadcaster/share/static_broadcaster/hook/pythonpath_develop.sh'
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/static_broadcaster' for CMake module files
+[2.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/root/colcon_ws/build/static_broadcaster' returned '0': PYTHONPATH=/home/root/colcon_ws/build/static_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/root/colcon_ws/install/static_broadcaster/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/root/colcon_ws/build/static_broadcaster/build --no-deps symlink_data
+[2.112s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/static_broadcaster' for CMake config files
+[2.113s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/static_broadcaster/lib'
+[2.113s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/static_broadcaster/bin'
+[2.113s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/static_broadcaster/lib/pkgconfig/static_broadcaster.pc'
+[2.113s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/static_broadcaster/lib/python3.8/site-packages'
+[2.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('static_broadcaster', 'pythonpath')
+[2.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/static_broadcaster/share/static_broadcaster/hook/pythonpath.ps1'
+[2.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/static_broadcaster/share/static_broadcaster/hook/pythonpath.dsv'
+[2.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/static_broadcaster/share/static_broadcaster/hook/pythonpath.sh'
+[2.115s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/static_broadcaster/bin'
+[2.115s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(static_broadcaster)
+[2.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/static_broadcaster/share/static_broadcaster/package.ps1'
+[2.117s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/root/colcon_ws/install/static_broadcaster/share/static_broadcaster/package.dsv'
+[2.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/static_broadcaster/share/static_broadcaster/package.sh'
+[2.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/static_broadcaster/share/static_broadcaster/package.bash'
+[2.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/static_broadcaster/share/static_broadcaster/package.zsh'
+[2.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/root/colcon_ws/install/static_broadcaster/share/colcon-core/packages/static_broadcaster)
+[2.162s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_listener', 'pythonpath_develop')
+[2.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/root/colcon_ws/build/aruco_listener' returned '0': PYTHONPATH=/home/root/colcon_ws/build/aruco_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/root/colcon_ws/install/aruco_listener/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/root/colcon_ws/build/aruco_listener/build --no-deps symlink_data
+[2.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/build/aruco_listener/share/aruco_listener/hook/pythonpath_develop.ps1'
+[2.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/build/aruco_listener/share/aruco_listener/hook/pythonpath_develop.dsv'
+[2.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/build/aruco_listener/share/aruco_listener/hook/pythonpath_develop.sh'
+[2.164s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/aruco_listener' for CMake module files
+[2.165s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/aruco_listener' for CMake config files
+[2.165s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/aruco_listener/lib'
+[2.165s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/aruco_listener/bin'
+[2.165s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/aruco_listener/lib/pkgconfig/aruco_listener.pc'
+[2.165s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/aruco_listener/lib/python3.8/site-packages'
+[2.165s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_listener', 'pythonpath')
+[2.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/aruco_listener/share/aruco_listener/hook/pythonpath.ps1'
+[2.166s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/aruco_listener/share/aruco_listener/hook/pythonpath.dsv'
+[2.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/aruco_listener/share/aruco_listener/hook/pythonpath.sh'
+[2.167s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/aruco_listener/bin'
+[2.167s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_listener)
+[2.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/aruco_listener/share/aruco_listener/package.ps1'
+[2.168s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/root/colcon_ws/install/aruco_listener/share/aruco_listener/package.dsv'
+[2.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/aruco_listener/share/aruco_listener/package.sh'
+[2.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/aruco_listener/share/aruco_listener/package.bash'
+[2.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/aruco_listener/share/aruco_listener/package.zsh'
+[2.170s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/root/colcon_ws/install/aruco_listener/share/colcon-core/packages/aruco_listener)
+[2.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco', 'pythonpath_develop')
+[2.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/build/ros2_aruco/share/ros2_aruco/hook/pythonpath_develop.ps1'
+[2.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/root/colcon_ws/build/ros2_aruco' returned '0': PYTHONPATH=/home/root/colcon_ws/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/root/colcon_ws/install/ros2_aruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/root/colcon_ws/build/ros2_aruco/build --no-deps symlink_data
+[2.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/build/ros2_aruco/share/ros2_aruco/hook/pythonpath_develop.dsv'
+[2.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/build/ros2_aruco/share/ros2_aruco/hook/pythonpath_develop.sh'
+[2.176s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/ros2_aruco' for CMake module files
+[2.177s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/ros2_aruco' for CMake config files
+[2.177s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/ros2_aruco/lib'
+[2.177s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/ros2_aruco/bin'
+[2.177s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/ros2_aruco/lib/pkgconfig/ros2_aruco.pc'
+[2.177s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/ros2_aruco/lib/python3.8/site-packages'
+[2.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco', 'pythonpath')
+[2.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/ros2_aruco/share/ros2_aruco/hook/pythonpath.ps1'
+[2.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/ros2_aruco/share/ros2_aruco/hook/pythonpath.dsv'
+[2.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/ros2_aruco/share/ros2_aruco/hook/pythonpath.sh'
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/ros2_aruco/bin'
+[2.179s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco)
+[2.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/ros2_aruco/share/ros2_aruco/package.ps1'
+[2.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/root/colcon_ws/install/ros2_aruco/share/ros2_aruco/package.dsv'
+[2.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/ros2_aruco/share/ros2_aruco/package.sh'
+[2.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/ros2_aruco/share/ros2_aruco/package.bash'
+[2.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/ros2_aruco/share/ros2_aruco/package.zsh'
+[2.182s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/root/colcon_ws/install/ros2_aruco/share/colcon-core/packages/ros2_aruco)
+[2.348s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_ros2', 'pythonpath_develop')
+[2.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/build/opencv_ros2/share/opencv_ros2/hook/pythonpath_develop.ps1'
+[2.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/root/colcon_ws/build/opencv_ros2' returned '0': PYTHONPATH=/home/root/colcon_ws/build/opencv_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/root/colcon_ws/install/opencv_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/root/colcon_ws/build/opencv_ros2/build --no-deps symlink_data
+[2.350s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/build/opencv_ros2/share/opencv_ros2/hook/pythonpath_develop.dsv'
+[2.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/build/opencv_ros2/share/opencv_ros2/hook/pythonpath_develop.sh'
+[2.350s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/opencv_ros2' for CMake module files
+[2.351s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/opencv_ros2' for CMake config files
+[2.351s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/opencv_ros2/lib'
+[2.351s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/opencv_ros2/bin'
+[2.352s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/opencv_ros2/lib/pkgconfig/opencv_ros2.pc'
+[2.352s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/opencv_ros2/lib/python3.8/site-packages'
+[2.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_ros2', 'pythonpath')
+[2.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/opencv_ros2/share/opencv_ros2/hook/pythonpath.ps1'
+[2.352s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/opencv_ros2/share/opencv_ros2/hook/pythonpath.dsv'
+[2.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/opencv_ros2/share/opencv_ros2/hook/pythonpath.sh'
+[2.353s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/opencv_ros2/bin'
+[2.353s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_ros2)
+[2.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/opencv_ros2/share/opencv_ros2/package.ps1'
+[2.354s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/root/colcon_ws/install/opencv_ros2/share/opencv_ros2/package.dsv'
+[2.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/opencv_ros2/share/opencv_ros2/package.sh'
+[2.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/opencv_ros2/share/opencv_ros2/package.bash'
+[2.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/opencv_ros2/share/opencv_ros2/package.zsh'
+[2.356s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/root/colcon_ws/install/opencv_ros2/share/colcon-core/packages/opencv_ros2)
+[2.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/root/colcon_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy /usr/bin/cmake --build /home/root/colcon_ws/build/dynamixel_sdk -- -j8 -l8
+[2.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/root/colcon_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy /usr/bin/cmake --install /home/root/colcon_ws/build/dynamixel_sdk
+[2.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/root/colcon_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy /usr/bin/cmake /home/root/colcon_ws/src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces
+[2.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/root/colcon_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy /usr/bin/cmake --build /home/root/colcon_ws/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+[2.778s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[2.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/root/colcon_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy /usr/bin/cmake --install /home/root/colcon_ws/build/dynamixel_sdk
+[2.778s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk' for CMake module files
+[2.779s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk' for CMake config files
+[2.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[2.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[2.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[2.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[2.781s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk/lib'
+[2.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[2.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[2.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[2.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[2.783s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk/bin'
+[2.783s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[2.783s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk/lib/python3.8/site-packages'
+[2.783s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk/bin'
+[2.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[2.784s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/root/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[2.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[2.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[2.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[2.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/root/colcon_ws/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[2.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[2.812s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk' for CMake module files
+[2.812s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk' for CMake config files
+[2.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[2.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[2.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[2.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[2.813s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk/lib'
+[2.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[2.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[2.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[2.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[2.814s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk/bin'
+[2.814s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[2.814s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk/lib/python3.8/site-packages'
+[2.814s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk/bin'
+[2.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[2.815s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/root/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[2.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[2.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[2.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[2.816s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/root/colcon_ws/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[3.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/root/colcon_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy /usr/bin/cmake /home/root/colcon_ws/src/Professional_Experiment_2024/ros2_aruco/ros2_aruco_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/root/colcon_ws/install/ros2_aruco_interfaces
+[3.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/root/colcon_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy /usr/bin/cmake --build /home/root/colcon_ws/build/ros2_aruco_interfaces -- -j8 -l8
+[5.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/root/colcon_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy /usr/bin/cmake --build /home/root/colcon_ws/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+[5.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/root/colcon_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy /usr/bin/cmake --install /home/root/colcon_ws/build/dynamixel_sdk_custom_interfaces
+[5.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/root/colcon_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy /usr/bin/cmake --build /home/root/colcon_ws/build/ros2_aruco_interfaces -- -j8 -l8
+[5.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/root/colcon_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy /usr/bin/cmake --install /home/root/colcon_ws/build/ros2_aruco_interfaces
+[5.855s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco_interfaces)
+[5.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/root/colcon_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy /usr/bin/cmake --install /home/root/colcon_ws/build/ros2_aruco_interfaces
+[5.856s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/ros2_aruco_interfaces' for CMake module files
+[5.856s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/ros2_aruco_interfaces' for CMake config files
+[5.857s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'cmake_prefix_path')
+[5.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.ps1'
+[5.858s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.dsv'
+[5.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.sh'
+[5.859s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/ros2_aruco_interfaces/lib'
+[5.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'ld_library_path_lib')
+[5.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.ps1'
+[5.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.dsv'
+[5.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.sh'
+[5.860s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/ros2_aruco_interfaces/bin'
+[5.860s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/ros2_aruco_interfaces/lib/pkgconfig/ros2_aruco_interfaces.pc'
+[5.860s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages'
+[5.860s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'pythonpath')
+[5.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/pythonpath.ps1'
+[5.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/pythonpath.dsv'
+[5.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/pythonpath.sh'
+[5.860s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/ros2_aruco_interfaces/bin'
+[5.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.ps1'
+[5.861s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.dsv'
+[5.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.sh'
+[5.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.bash'
+[5.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.zsh'
+[5.862s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/root/colcon_ws/install/ros2_aruco_interfaces/share/colcon-core/packages/ros2_aruco_interfaces)
+[5.894s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco_interfaces)
+[5.894s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/ros2_aruco_interfaces' for CMake module files
+[5.895s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/ros2_aruco_interfaces' for CMake config files
+[5.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'cmake_prefix_path')
+[5.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.ps1'
+[5.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.dsv'
+[5.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.sh'
+[5.897s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/ros2_aruco_interfaces/lib'
+[5.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'ld_library_path_lib')
+[5.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.ps1'
+[5.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.dsv'
+[5.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.sh'
+[5.899s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/ros2_aruco_interfaces/bin'
+[5.899s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/ros2_aruco_interfaces/lib/pkgconfig/ros2_aruco_interfaces.pc'
+[5.899s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages'
+[5.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'pythonpath')
+[5.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/pythonpath.ps1'
+[5.899s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/pythonpath.dsv'
+[5.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/pythonpath.sh'
+[5.900s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/ros2_aruco_interfaces/bin'
+[5.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.ps1'
+[5.901s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.dsv'
+[5.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.sh'
+[5.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.bash'
+[5.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.zsh'
+[5.903s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/root/colcon_ws/install/ros2_aruco_interfaces/share/colcon-core/packages/ros2_aruco_interfaces)
+[5.904s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[5.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/root/colcon_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy /usr/bin/cmake --install /home/root/colcon_ws/build/dynamixel_sdk_custom_interfaces
+[5.905s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[5.905s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[5.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[5.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[5.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[5.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[5.908s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib'
+[5.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[5.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[5.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[5.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[5.909s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[5.909s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[5.909s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages'
+[5.909s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'pythonpath')
+[5.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.ps1'
+[5.910s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.dsv'
+[5.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.sh'
+[5.910s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[5.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[5.911s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[5.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[5.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[5.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[5.912s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[5.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[5.954s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[5.954s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[5.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[5.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[5.955s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[5.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[5.956s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib'
+[5.956s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[5.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[5.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[5.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[5.956s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[5.956s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[5.957s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages'
+[5.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'pythonpath')
+[5.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.ps1'
+[5.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.dsv'
+[5.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/pythonpath.sh'
+[5.957s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[5.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[5.958s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[5.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[5.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[5.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[5.959s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[5.959s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/root/colcon_ws/src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_examples' with build type 'ament_cmake'
+[5.959s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/root/colcon_ws/src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_examples'
+[5.959s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.960s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/root/colcon_ws/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/root/colcon_ws/install/dynamixel_sdk:/home/root/colcon_ws/install/ros2_aruco_interfaces:/home/root/colcon_ws/install/dynamixel_sdk_examples:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy LD_LIBRARY_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/root/colcon_ws/install/dynamixel_sdk/lib:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/static_broadcaster/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/root/colcon_ws/install/opencv_ros2/lib/python3.8/site-packages:/home/root/colcon_ws/install/aruco_listener/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/root/colcon_ws/src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/root/colcon_ws/install/dynamixel_sdk_examples
+[7.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/root/colcon_ws/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/root/colcon_ws/install/dynamixel_sdk:/home/root/colcon_ws/install/ros2_aruco_interfaces:/home/root/colcon_ws/install/dynamixel_sdk_examples:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy LD_LIBRARY_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/root/colcon_ws/install/dynamixel_sdk/lib:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/static_broadcaster/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/root/colcon_ws/install/opencv_ros2/lib/python3.8/site-packages:/home/root/colcon_ws/install/aruco_listener/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/root/colcon_ws/src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/root/colcon_ws/install/dynamixel_sdk_examples
+[7.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/root/colcon_ws/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/root/colcon_ws/install/dynamixel_sdk:/home/root/colcon_ws/install/ros2_aruco_interfaces:/home/root/colcon_ws/install/dynamixel_sdk_examples:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy LD_LIBRARY_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/root/colcon_ws/install/dynamixel_sdk/lib:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/static_broadcaster/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/root/colcon_ws/install/opencv_ros2/lib/python3.8/site-packages:/home/root/colcon_ws/install/aruco_listener/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/root/colcon_ws/build/dynamixel_sdk_examples -- -j8 -l8
+[10.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/root/colcon_ws/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/root/colcon_ws/install/dynamixel_sdk:/home/root/colcon_ws/install/ros2_aruco_interfaces:/home/root/colcon_ws/install/dynamixel_sdk_examples:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy LD_LIBRARY_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/root/colcon_ws/install/dynamixel_sdk/lib:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/static_broadcaster/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/root/colcon_ws/install/opencv_ros2/lib/python3.8/site-packages:/home/root/colcon_ws/install/aruco_listener/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/root/colcon_ws/build/dynamixel_sdk_examples -- -j8 -l8
+[10.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/root/colcon_ws/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/root/colcon_ws/install/dynamixel_sdk:/home/root/colcon_ws/install/ros2_aruco_interfaces:/home/root/colcon_ws/install/dynamixel_sdk_examples:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy LD_LIBRARY_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/root/colcon_ws/install/dynamixel_sdk/lib:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/static_broadcaster/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/root/colcon_ws/install/opencv_ros2/lib/python3.8/site-packages:/home/root/colcon_ws/install/aruco_listener/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/root/colcon_ws/build/dynamixel_sdk_examples
+[10.428s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[10.428s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_examples' for CMake module files
+[10.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/root/colcon_ws/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/root/colcon_ws/install/dynamixel_sdk:/home/root/colcon_ws/install/ros2_aruco_interfaces:/home/root/colcon_ws/install/dynamixel_sdk_examples:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy LD_LIBRARY_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/root/colcon_ws/install/dynamixel_sdk/lib:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/static_broadcaster/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/root/colcon_ws/install/opencv_ros2/lib/python3.8/site-packages:/home/root/colcon_ws/install/aruco_listener/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/root/colcon_ws/build/dynamixel_sdk_examples
+[10.429s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_examples' for CMake config files
+[10.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[10.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[10.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[10.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[10.430s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_examples/lib'
+[10.430s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_examples/bin'
+[10.430s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_examples/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[10.430s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_examples/lib/python3.8/site-packages'
+[10.430s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_examples/bin'
+[10.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.ps1'
+[10.431s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv'
+[10.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.sh'
+[10.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.bash'
+[10.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.zsh'
+[10.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/root/colcon_ws/install/dynamixel_sdk_examples/share/colcon-core/packages/dynamixel_sdk_examples)
+[10.450s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[10.450s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_examples' for CMake module files
+[10.451s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_examples' for CMake config files
+[10.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[10.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[10.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[10.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[10.452s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_examples/lib'
+[10.452s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_examples/bin'
+[10.452s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_examples/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[10.453s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_examples/lib/python3.8/site-packages'
+[10.453s] Level 1:colcon.colcon_core.environment:checking '/home/root/colcon_ws/install/dynamixel_sdk_examples/bin'
+[10.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.ps1'
+[10.453s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv'
+[10.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.sh'
+[10.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.bash'
+[10.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.zsh'
+[10.454s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/root/colcon_ws/install/dynamixel_sdk_examples/share/colcon-core/packages/dynamixel_sdk_examples)
+[10.454s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.454s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.454s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.454s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.460s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[10.460s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.460s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.460s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.464s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[10.464s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.464s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/root/colcon_ws/install/local_setup.ps1'
+[10.465s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/root/colcon_ws/install/_local_setup_util_ps1.py'
+[10.466s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/root/colcon_ws/install/setup.ps1'
+[10.466s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/root/colcon_ws/install/local_setup.sh'
+[10.466s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/root/colcon_ws/install/_local_setup_util_sh.py'
+[10.467s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/root/colcon_ws/install/setup.sh'
+[10.467s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/root/colcon_ws/install/local_setup.bash'
+[10.468s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/root/colcon_ws/install/setup.bash'
+[10.468s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/root/colcon_ws/install/local_setup.zsh'
+[10.468s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/root/colcon_ws/install/setup.zsh'

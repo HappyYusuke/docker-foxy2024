@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating aruco_listener.egg-info
+writing aruco_listener.egg-info/PKG-INFO
+writing dependency_links to aruco_listener.egg-info/dependency_links.txt
+writing entry points to aruco_listener.egg-info/entry_points.txt
+writing requirements to aruco_listener.egg-info/requires.txt
+writing top-level names to aruco_listener.egg-info/top_level.txt
+writing manifest file 'aruco_listener.egg-info/SOURCES.txt'
+reading manifest file 'aruco_listener.egg-info/SOURCES.txt'
+writing manifest file 'aruco_listener.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/root/colcon_ws/install/aruco_listener/lib/python3.8/site-packages/site.py
+Creating /home/root/colcon_ws/install/aruco_listener/lib/python3.8/site-packages/aruco-listener.egg-link (link to .)
+Installing listener script to /home/root/colcon_ws/install/aruco_listener/lib/aruco_listener
+
+Installed /home/root/colcon_ws/build/aruco_listener
+running symlink_data
+creating /home/root/colcon_ws/install/aruco_listener/share/ament_index
+creating /home/root/colcon_ws/install/aruco_listener/share/ament_index/resource_index
+creating /home/root/colcon_ws/install/aruco_listener/share/ament_index/resource_index/packages
+symbolically linking /home/root/colcon_ws/build/aruco_listener/resource/aruco_listener -> /home/root/colcon_ws/install/aruco_listener/share/ament_index/resource_index/packages
+symbolically linking /home/root/colcon_ws/build/aruco_listener/package.xml -> /home/root/colcon_ws/install/aruco_listener/share/aruco_listener

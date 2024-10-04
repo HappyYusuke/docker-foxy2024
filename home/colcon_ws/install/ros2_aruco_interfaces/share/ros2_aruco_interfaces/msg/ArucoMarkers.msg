@@ -1,0 +1,1 @@
+/home/root/colcon_ws/src/Professional_Experiment_2024/ros2_aruco/ros2_aruco_interfaces/msg/ArucoMarkers.msg

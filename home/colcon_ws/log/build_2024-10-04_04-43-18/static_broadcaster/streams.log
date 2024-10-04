@@ -1,0 +1,17 @@
+[1.242s] Invoking command in '/home/root/colcon_ws/build/static_broadcaster': PYTHONPATH=/home/root/colcon_ws/build/static_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/root/colcon_ws/install/static_broadcaster/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/root/colcon_ws/build/static_broadcaster/build --no-deps symlink_data
+[1.521s] running develop
+[1.648s] running egg_info
+[1.648s] writing static_broadcaster.egg-info/PKG-INFO
+[1.648s] writing dependency_links to static_broadcaster.egg-info/dependency_links.txt
+[1.648s] writing entry points to static_broadcaster.egg-info/entry_points.txt
+[1.649s] writing requirements to static_broadcaster.egg-info/requires.txt
+[1.649s] writing top-level names to static_broadcaster.egg-info/top_level.txt
+[1.668s] reading manifest file 'static_broadcaster.egg-info/SOURCES.txt'
+[1.668s] writing manifest file 'static_broadcaster.egg-info/SOURCES.txt'
+[1.690s] running build_ext
+[1.691s] Creating /home/root/colcon_ws/install/static_broadcaster/lib/python3.8/site-packages/static-broadcaster.egg-link (link to .)
+[1.691s] Installing broadcaster script to /home/root/colcon_ws/install/static_broadcaster/lib/static_broadcaster
+[1.691s] 
+[1.691s] Installed /home/root/colcon_ws/build/static_broadcaster
+[1.691s] running symlink_data
+[1.710s] Invoked command in '/home/root/colcon_ws/build/static_broadcaster' returned '0': PYTHONPATH=/home/root/colcon_ws/build/static_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/root/colcon_ws/install/static_broadcaster/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/root/colcon_ws/build/static_broadcaster/build --no-deps symlink_data

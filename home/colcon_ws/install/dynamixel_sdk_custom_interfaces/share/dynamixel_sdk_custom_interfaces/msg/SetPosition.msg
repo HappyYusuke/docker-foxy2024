@@ -1,0 +1,1 @@
+/home/root/colcon_ws/src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg

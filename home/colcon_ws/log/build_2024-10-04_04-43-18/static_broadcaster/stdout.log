@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing static_broadcaster.egg-info/PKG-INFO
+writing dependency_links to static_broadcaster.egg-info/dependency_links.txt
+writing entry points to static_broadcaster.egg-info/entry_points.txt
+writing requirements to static_broadcaster.egg-info/requires.txt
+writing top-level names to static_broadcaster.egg-info/top_level.txt
+reading manifest file 'static_broadcaster.egg-info/SOURCES.txt'
+writing manifest file 'static_broadcaster.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/root/colcon_ws/install/static_broadcaster/lib/python3.8/site-packages/static-broadcaster.egg-link (link to .)
+Installing broadcaster script to /home/root/colcon_ws/install/static_broadcaster/lib/static_broadcaster
+
+Installed /home/root/colcon_ws/build/static_broadcaster
+running symlink_data

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/root/colcon_ws/build/dynamixel_sdk_examples/read_write_trapezoidal_node" "/home/root/colcon_ws/build/dynamixel_sdk_examples/pub_position_node" "TARGETS" "read_write_trapezoidal_node" "pub_position_node" "DESTINATION" "lib/dynamixel_sdk_examples")

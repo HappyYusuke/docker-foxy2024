@@ -1,0 +1,85 @@
+[0.010s] Invoking command in '/home/root/colcon_ws/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/root/colcon_ws/install/dynamixel_sdk:/home/root/colcon_ws/install/ros2_aruco_interfaces:/home/root/colcon_ws/install/dynamixel_sdk_examples:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy LD_LIBRARY_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/root/colcon_ws/install/dynamixel_sdk/lib:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/static_broadcaster/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/root/colcon_ws/install/opencv_ros2/lib/python3.8/site-packages:/home/root/colcon_ws/install/aruco_listener/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/root/colcon_ws/src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/root/colcon_ws/install/dynamixel_sdk_examples
+[0.045s] -- The C compiler identification is GNU 9.4.0
+[0.079s] -- The CXX compiler identification is GNU 9.4.0
+[0.082s] -- Check for working C compiler: /usr/bin/cc
+[0.128s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.129s] -- Detecting C compiler ABI info
+[0.176s] -- Detecting C compiler ABI info - done
+[0.187s] -- Detecting C compile features
+[0.187s] -- Detecting C compile features - done
+[0.189s] -- Check for working CXX compiler: /usr/bin/c++
+[0.242s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.243s] -- Detecting CXX compiler ABI info
+[0.295s] -- Detecting CXX compiler ABI info - done
+[0.302s] -- Detecting CXX compile features
+[0.302s] -- Detecting CXX compile features - done
+[0.303s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.323s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.323s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.414s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.432s] -- Found dynamixel_sdk: 3.7.60 (/home/root/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[0.433s] -- Found dynamixel_sdk_custom_interfaces: 3.7.60 (/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[0.453s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.457s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.517s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.540s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.596s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.626s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.669s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.672s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.673s] -- Looking for pthread.h
+[0.720s] -- Looking for pthread.h - found
+[0.721s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.769s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.769s] -- Looking for pthread_create in pthreads
+[0.809s] -- Looking for pthread_create in pthreads - not found
+[0.809s] -- Looking for pthread_create in pthread
+[0.857s] -- Looking for pthread_create in pthread - found
+[0.858s] -- Found Threads: TRUE  
+[0.962s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.985s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.039s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.040s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.040s] -- Configured cppcheck include dirs: /home/root/colcon_ws/src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_examples/include
+[1.040s] -- Configured cppcheck exclude dirs and/or files: 
+[1.040s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.041s] -- Configured cpplint exclude dirs and/or files: 
+[1.041s] -- Added test 'lint_cmake' to check CMake code style
+[1.041s] -- Added test 'uncrustify' to check C / C++ code style
+[1.041s] -- Configured uncrustify additional arguments: 
+[1.042s] -- Added test 'xmllint' to check XML markup files
+[1.044s] -- Configuring done
+[1.051s] -- Generating done
+[1.052s] -- Build files have been written to: /home/root/colcon_ws/build/dynamixel_sdk_examples
+[1.058s] Invoked command in '/home/root/colcon_ws/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/root/colcon_ws/install/dynamixel_sdk:/home/root/colcon_ws/install/ros2_aruco_interfaces:/home/root/colcon_ws/install/dynamixel_sdk_examples:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy LD_LIBRARY_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/root/colcon_ws/install/dynamixel_sdk/lib:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/static_broadcaster/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/root/colcon_ws/install/opencv_ros2/lib/python3.8/site-packages:/home/root/colcon_ws/install/aruco_listener/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/root/colcon_ws/src/Professional_Experiment_2024/DynamixelSDK/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/root/colcon_ws/install/dynamixel_sdk_examples
+[1.060s] Invoking command in '/home/root/colcon_ws/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/root/colcon_ws/install/dynamixel_sdk:/home/root/colcon_ws/install/ros2_aruco_interfaces:/home/root/colcon_ws/install/dynamixel_sdk_examples:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy LD_LIBRARY_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/root/colcon_ws/install/dynamixel_sdk/lib:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/static_broadcaster/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/root/colcon_ws/install/opencv_ros2/lib/python3.8/site-packages:/home/root/colcon_ws/install/aruco_listener/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/root/colcon_ws/build/dynamixel_sdk_examples -- -j8 -l8
+[1.088s] [35m[1mScanning dependencies of target pub_position_node[0m
+[1.088s] [35m[1mScanning dependencies of target read_write_trapezoidal_node[0m
+[1.133s] [ 25%] [32mBuilding CXX object CMakeFiles/read_write_trapezoidal_node.dir/src/read_write_trapezoidal_node.cpp.o[0m
+[1.133s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_position_node.dir/src/pub_position_node.cpp.o[0m
+[3.052s] [ 75%] [32m[1mLinking CXX executable pub_position_node[0m
+[3.160s] [ 75%] Built target pub_position_node
+[4.187s] [100%] [32m[1mLinking CXX executable read_write_trapezoidal_node[0m
+[4.325s] [100%] Built target read_write_trapezoidal_node
+[4.333s] Invoked command in '/home/root/colcon_ws/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/root/colcon_ws/install/dynamixel_sdk:/home/root/colcon_ws/install/ros2_aruco_interfaces:/home/root/colcon_ws/install/dynamixel_sdk_examples:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy LD_LIBRARY_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/root/colcon_ws/install/dynamixel_sdk/lib:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/static_broadcaster/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/root/colcon_ws/install/opencv_ros2/lib/python3.8/site-packages:/home/root/colcon_ws/install/aruco_listener/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/root/colcon_ws/build/dynamixel_sdk_examples -- -j8 -l8
+[4.353s] Invoking command in '/home/root/colcon_ws/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/root/colcon_ws/install/dynamixel_sdk:/home/root/colcon_ws/install/ros2_aruco_interfaces:/home/root/colcon_ws/install/dynamixel_sdk_examples:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy LD_LIBRARY_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/root/colcon_ws/install/dynamixel_sdk/lib:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/static_broadcaster/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/root/colcon_ws/install/opencv_ros2/lib/python3.8/site-packages:/home/root/colcon_ws/install/aruco_listener/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/root/colcon_ws/build/dynamixel_sdk_examples
+[4.359s] -- Install configuration: ""
+[4.360s] -- Execute custom install script
+[4.360s] -- Symlinking: /home/root/colcon_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_trapezoidal_node
+[4.367s] -- Symlinking: /home/root/colcon_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/pub_position_node
+[4.373s] -- Symlinking: /home/root/colcon_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[4.379s] -- Symlinking: /home/root/colcon_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[4.385s] -- Symlinking: /home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[4.391s] -- Symlinking: /home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+[4.398s] -- Symlinking: /home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+[4.403s] -- Symlinking: /home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+[4.410s] -- Symlinking: /home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+[4.416s] -- Symlinking: /home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+[4.422s] -- Symlinking: /home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+[4.429s] -- Symlinking: /home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+[4.435s] -- Symlinking: /home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+[4.442s] -- Symlinking: /home/root/colcon_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[4.448s] -- Symlinking: /home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[4.453s] -- Symlinking: /home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[4.460s] -- Symlinking: /home/root/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml
+[4.469s] Invoked command in '/home/root/colcon_ws/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/root/colcon_ws/install/dynamixel_sdk:/home/root/colcon_ws/install/ros2_aruco_interfaces:/home/root/colcon_ws/install/dynamixel_sdk_examples:/home/root/colcon_ws/install/static_broadcaster:/home/root/colcon_ws/install/ros2_aruco:/home/root/colcon_ws/install/opencv_ros2:/home/root/colcon_ws/install/aruco_listener:/opt/ros/foxy LD_LIBRARY_PATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/root/colcon_ws/install/dynamixel_sdk/lib:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/root/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/static_broadcaster/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/root/colcon_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/root/colcon_ws/install/opencv_ros2/lib/python3.8/site-packages:/home/root/colcon_ws/install/aruco_listener/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/root/colcon_ws/build/dynamixel_sdk_examples

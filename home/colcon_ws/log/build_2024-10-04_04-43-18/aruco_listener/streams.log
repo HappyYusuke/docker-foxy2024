@@ -1,0 +1,17 @@
+[1.208s] Invoking command in '/home/root/colcon_ws/build/aruco_listener': PYTHONPATH=/home/root/colcon_ws/build/aruco_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/root/colcon_ws/install/aruco_listener/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/root/colcon_ws/build/aruco_listener/build --no-deps symlink_data
+[1.394s] running develop
+[1.469s] running egg_info
+[1.469s] writing aruco_listener.egg-info/PKG-INFO
+[1.469s] writing dependency_links to aruco_listener.egg-info/dependency_links.txt
+[1.469s] writing entry points to aruco_listener.egg-info/entry_points.txt
+[1.469s] writing requirements to aruco_listener.egg-info/requires.txt
+[1.470s] writing top-level names to aruco_listener.egg-info/top_level.txt
+[1.499s] reading manifest file 'aruco_listener.egg-info/SOURCES.txt'
+[1.500s] writing manifest file 'aruco_listener.egg-info/SOURCES.txt'
+[1.533s] running build_ext
+[1.533s] Creating /home/root/colcon_ws/install/aruco_listener/lib/python3.8/site-packages/aruco-listener.egg-link (link to .)
+[1.534s] Installing listener script to /home/root/colcon_ws/install/aruco_listener/lib/aruco_listener
+[1.534s] 
+[1.534s] Installed /home/root/colcon_ws/build/aruco_listener
+[1.534s] running symlink_data
+[1.569s] Invoked command in '/home/root/colcon_ws/build/aruco_listener' returned '0': PYTHONPATH=/home/root/colcon_ws/build/aruco_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/root/colcon_ws/install/aruco_listener/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/root/colcon_ws/build/aruco_listener/build --no-deps symlink_data
